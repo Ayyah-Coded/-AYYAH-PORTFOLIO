@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    padding: 0 45px;        // ← adds breathing room on both sides
 
     @include mobile {
       justify-content: flex-end;
@@ -18,6 +19,7 @@
 
     span {
       font-weight: bold;
+      padding-left: 60px;   // ← pushes brand text clear of the fixed toggle button
 
       @include mobile {
         display: none;

@@ -60,12 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>E-Commerce Platform</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Designed and developed a scalable event-driven e-commerce platform with microservices, secure payment integration, real-time order processing, and cloud-ready deployment for high performance and reliability.
           </p>
           <button>Go</button>
         </motion.div>
