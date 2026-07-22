@@ -147,7 +147,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Ayyah-Coded/portfolio.git
 ```
 
 Navigate into the project
