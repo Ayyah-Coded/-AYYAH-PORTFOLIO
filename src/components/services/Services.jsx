@@ -45,14 +45,14 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,7 +60,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Luxury E-Commerce Experiences</h2>
+          <h2>Luxury E-Commerce</h2>
           <p>
             Crafting premium online shopping experiences that combine performance, elegant design, secure payments, and seamless customer journeys for modern brands.
           </p>
@@ -70,7 +70,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Scalable Cloud Systems</h2>
+          <h2>Cloud & Backend Systems</h2>
           <p>
             Designing resilient backend infrastructures, APIs, and microservices capable of powering high-traffic applications with security, reliability, and operational excellence.
           </p>
@@ -80,7 +80,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Mobile Experiences</h2>
+          <h2>Mobile App Development</h2>
           <p>
             Developing polished cross-platform mobile applications that connect businesses with customers through fast, engaging, and beautifully crafted experiences.
           </p>

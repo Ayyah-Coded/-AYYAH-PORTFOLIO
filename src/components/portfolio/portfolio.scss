@@ -3,6 +3,7 @@
 .portfolio {
   position: relative;
 
+
   .progress {
     position: sticky;
     top: 0;
@@ -35,12 +36,13 @@
     .wrapper {
       max-width: 1366px;
       height: 100%;
-      margin: auto;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 50px;
       padding: 0 100px;
+      padding-top: 8rem;
+
 
       @include mobile {
         flex-direction: column;
@@ -49,7 +51,9 @@
 
       .imageContainer {
         flex: 1;
-        height: 50%;
+        height: 70%;
+
+
 
         @include mobile {
           width: 100%;
@@ -59,7 +63,7 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
 
           @include mobile {
             object-fit: contain;

@@ -5,30 +5,30 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Grandis-Store",
+    img: "/home-page.png",
     desc: "Designed and developed a scalable event-driven e-commerce platform with microservices, secure payment integration, real-time order processing, and cloud-ready deployment for high performance and reliability.",
     href: "#",
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "ResumeFlow",
+    img: "./Dashboard-ResumeFlow.png",
+    desc: "A full-stack, AI-powered resume builder that helps users create professional, ATS-friendly resumes with features including AI-assisted content generation, live preview, theming, and shareable resume links.",
     href: "#",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Dexpto-Terminal",
+    img: "/coin-overview.png",
+    desc: "Dexpto Terminal is a production-oriented cryptocurrency analytics interface designed for fast market exploration, historical price analysis, and real-time market monitoring.",
     href: "#",
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "BlipChat",
+    img: "./blipchat.png",
+    desc: "BlipChat is a production-oriented backend system that shows how modern messaging platforms can be built using independently deployable services, asynchronous messaging, a centralized API gateway, and shared internal libraries following the same patterns used by engineering teams at companies like Netflix, Uber, Spotify, and Meta.",
     href: "#",
   },
 ];
@@ -36,11 +36,9 @@ const items = [
 const Single = ({ item }) => {
   const ref = useRef();
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-  });
+  const { scrollYProgress } = useScroll({ target: ref });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const y = useTransform(scrollYProgress, [0, 1], [-200, 50]);
 
   return (
     <section style={{
