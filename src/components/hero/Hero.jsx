@@ -31,7 +31,7 @@ const sliderVariants = {
     x: "-220%",
     transition: {
       repeat: Infinity,
-      repeatType:"mirror",
+      repeatType: "mirror",
       duration: 20,
     },
   },
@@ -47,15 +47,16 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>HAYATULLAH GBOLAHAN</motion.h2>
+          <motion.h2 variants={textVariants}>Yahaya H.</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web and Mobile developer
+            Fullstack Engineer building scalable web platforms, distributed backend systems, AI-powered applications and modern cloud-native experiences.
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants} className="contact-button">Contact Me</motion.button>
+            <motion.button variants={textVariants} className="button">Contact Me</motion.button>
+            <motion.button variants={textVariants} className="button">Download Resume</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

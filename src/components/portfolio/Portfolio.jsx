@@ -28,7 +28,7 @@ const items = [
     id: 4,
     title: "BlipChat",
     img: "./blipchat.png",
-    desc: "BlipChat is a production-oriented backend system that shows how modern messaging platforms can be built using independently deployable services, asynchronous messaging, a centralized API gateway, and shared internal libraries following the same patterns used by engineering teams at companies like Netflix, Uber, Spotify, and Meta.",
+    desc: "Production-inspired messaging platform demonstrating API Gateway, RabbitMQ event streaming, Redis caching, JWT authentication and independently deployable services.",
     href: "#",
   },
 ];

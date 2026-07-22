@@ -10,7 +10,7 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
-    padding: 0 100px;        // ← keeps text off the left edge
+    padding: 0 100px;
 
     .textContainer {
       width: 50%;
@@ -35,7 +35,7 @@
       }
 
       h1 {
-        font-size: 58px;
+        font-size: 36px;
         line-height: 1.1;
 
         @include mobile {
@@ -55,9 +55,11 @@
           font-weight: 300;
           font-size: 14px;
         }
+
         .contact-button {
           background-color: white;
           color: black;
+          cursor: pointer;
         }
       }
 
